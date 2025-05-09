@@ -1,12 +1,30 @@
+# Python bytecode and cache
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.pyd
-.env
-.venv
-env/
+
+# Virtual environment
+.venv/
 venv/
-*.sqlite3
-*.log
-*.png
+
+# Jupyter notebooks checkpoints (if you ever add notebooks)
+.ipynb_checkpoints/
+
+# OS-specific junk
 .DS_Store
+Thumbs.db
+
+# IDE junk
+.vscode/
+.idea/
+
+# Outputs (optional — if you don't want to track plots/images)
+outputs/*.png
+outputs/*.jpg
+
+# Test reports / pytest cache
+.pytest_cache/
+*.cover
+
+# CSV output (optional — in case optimizer saves reports later)
+outputs/*.csv
